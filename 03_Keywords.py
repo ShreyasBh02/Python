@@ -1,5 +1,5 @@
 ## Keywords
 import keyword
 
-print(keyword.kwlist);
+print(keyword.kwlist)
 help('keywords')
