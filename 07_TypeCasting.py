@@ -20,7 +20,7 @@ print("The type of result is: ",type(result))
 print("")
 #Data Loss in Explicit Casting
 x=4.56
-print("Before Casting:" )
+print("Before Casting:" ) 
 print("The type of no is: x: ",type(x), " And value of x is: ",x)
 a=int(x)
 print("After Casting: ")
