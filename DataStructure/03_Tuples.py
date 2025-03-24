@@ -56,4 +56,28 @@ TypeError: 'tuple' object does not support item assignment
 tup= (5,69,74,96,0)
 del tup
 print(tup)
+'''o/P:
+Traceback (most recent call last):
+  File "d:\Rest Assured_ATT\Python\Programs\DataStructure\tempCodeRunnerFile.py", line 4, in <module>
+    print(tup)
+          ^^^
+NameError: name 'tup' is not defined
+'''
 
+##***************************************************************************************************
+## Tuple Built-In Methods
+
+## 1.index():
+a = ["cat", "dog", "tiger"]
+print(a.index("dog"))
+
+
+##***************************************************************************************************
+
+## Tuple Built-In Functions:
+
+
+
+##***************************************************************************************************
+#USE Cases
+## 1. validate login page

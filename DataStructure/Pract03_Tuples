@@ -1,0 +1,40 @@
+## Returning the multiple values from a funtions
+def get_UserId():
+    users= [
+        ("Jhon Doe", 30, "123 Main Street"),
+        ("ALex", 61, "23/A Clif Road"),
+        ("Jhony Toomland", 6,"" ),
+        ("Ronaldo", 50, "84 Morrise Ave"),
+    ]
+    return users
+
+
+user_Infor=get_UserId()
+for userData in user_Infor:
+    name, age, address= userData
+    print(f"Name: {name}, Age: {age}, Address: {address}")
+
+
+
+## Check whether an element exists within a tuple
+def student_Data():
+    students = [("Alice", 20), ("Bob", 22), ("Charlie", 19), ("David", 21)]
+    return students
+
+search_name = "Alicez"
+
+for studentData in student_Data():
+    name, age=studentData
+    if search_name ==name:
+        print(f"Student {name} found, Age: {age}")
+        break 
+    else:
+         print(f"Student {search_name} not found")
+
+## Remove an empty tuple(s) from a list of tuples.
+tuple= [(), (), ('',), ('a', 'b'), ('a', 'b', 'c'), ('d')]
+for item in tuple[:]:
+    if item==():
+        tuple.remove(item)
+
+print(tuple)

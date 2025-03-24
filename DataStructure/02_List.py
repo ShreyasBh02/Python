@@ -47,13 +47,13 @@ print(fruits)                       # O/p: ['apple', 'Mango', 'Banana', 'Orange'
 append_Fruits=fruits.append("Grapes")
 print(fruits)                       # O/p: ['apple', 'Mango', 'Banana', 'Orange', 'Grapes']
 
-# extend(): Adds multiple elements to the end of the list.
+# insert(): Adds an element at a specific position.
 fruits.insert(1, "Gava")  
 fruits.insert(4, "Pineapple")
 fruits.insert(6, "Strawberries")
 print(fruits)                       # O/p: ['apple', 'Gava', 'Mango', 'Banana', 'Pineapple', 'Orange', 'Strawberries', 'Grapes']
 
-# insert(): Adds an element at a specific position.
+# extend(): Adds multiple elements to the end of the list.
 fruits.extend(["Peaches", "Blueberries"])
 print(fruits)                       #O/p: ['apple', 'Gava', 'Mango', 'Banana', 'Pineapple', 'Orange', 'Strawberries', 'Grapes', 'Peaches', 'Blueberries']
 
