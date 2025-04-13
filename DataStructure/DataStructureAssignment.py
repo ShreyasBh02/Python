@@ -221,8 +221,9 @@ print("Tuple:", dataTuple)
 print("Dictionary:", dataDictionary)
 
 ## 27. WAP to create a list of 5 random numbers between 1 and 100, sort it in ascending order, and print the result.(replaced)
+import random as randoms
 random_numbers = []
-random_numbers = [random.randint(1, 100) for _ in range(5)]
+random_numbers = [randoms.randint(1, 100) for _ in range(5)]
 
 random_numbers.sort()
 
